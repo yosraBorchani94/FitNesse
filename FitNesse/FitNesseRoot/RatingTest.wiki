@@ -1,0 +1,15 @@
+!contents -R2 -g -p -f -h
+
+!define TEST_SYSTEM {slim}
+!path C:\Users\yborchani\eclipse-workspace\FitNesse\target\classes
+
+!|import|
+|rating|
+
+|!VerifyRating|
+|team name|played|won|drawn|lost|rating ()?|
+|Arsenal|38|31|2|5|83|
+|Aston Villa|38|20|2|16|54|
+|Chelsea|38|35|1|2|93|
+|Dummy|38|35|1|2|93|
+|Wigan|38|26|7|5|75|

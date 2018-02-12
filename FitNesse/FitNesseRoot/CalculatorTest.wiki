@@ -1,0 +1,48 @@
+!contents -R2 -g -p -f -h
+
+
+!define TEST_SYSTEM {slim}
+!path C:\Users\yborchani\eclipse-workspace\FitNesse\target\classes
+
+!|import|
+|JonnasT.FitNesse|
+
+
+|Add two number                          |
+|first int|second int|result of addition?|
+|0        |1         |1                  |
+|2        |0         |2                  |
+|2        |3         |5                  |
+
+|Subtract an integer to another                   |
+|int to be subtracted|minus|result of subtraction?|
+|0                   |1    |-1                    |
+|4                   |2    |2                     |
+|3                   |1    |2                     |
+
+
+|!DivisionFixture|
+|numerator|denominator|quotient?|
+|10       |2          |5.0        |
+|12.6     |3          |4.2      |
+|100      |4          |25.0       |
+
+
+!|import|
+|calculator|
+
+|!Calculator|
+|first|second|addition?|minus?|multiply?|divide?|
+|4   |2     |6       |2     |8       |2.0   |
+|10   |5     |15       |5     |50       |2.0   |
+|10   |10   |20       |0     |100     |1.0   |
+
+
+!|import|
+|com.langrsoft.app|
+
+
+|!BookRules|
+|daily fine?|grace period?|checkout period?|
+|10|3|21|
+
