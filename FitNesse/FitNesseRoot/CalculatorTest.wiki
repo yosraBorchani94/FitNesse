@@ -2,7 +2,7 @@
 
 
 !define TEST_SYSTEM {slim}
-!path C:\Users\yborchani\eclipse-workspace\FitNesse\target\classes
+!path C:\Users\yborchani\git\FitNesse\FitNesse\target\classes
 
 !|import|
 |JonnasT.FitNesse|
